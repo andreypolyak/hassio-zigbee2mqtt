@@ -1,10 +1,10 @@
 {
-  "name": "Zigbee2mqtt Edge",
-  "version": "edge",
-  "slug": "zigbee2mqtt_edge",
-  "description": "Development build of the Zigbee2mqtt add-on",
+  "name": "Zigbee2mqtt Bathroom",
+  "version": "1.17.1-4",
+  "slug": "zigbee2mqtt_bathroom",
+  "description": "Zigbee2mqtt add-on",
   "uart": true,
-  "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt-edge",
+  "url": "https://github.com/andreypolyak/hassio-zigbee2mqtt-multi/tree/master/zigbee2mqtt",
   "startup": "application",
   "services": [
     "mqtt:need"
@@ -43,7 +43,7 @@
       "port": "/dev/ttyACM0"
     },
     "advanced": {
-      "log_level": "info",
+      "log_level": "warn",
       "pan_id": 6754,
       "channel": 11,
       "network_key": [1, 3, 5, 7, 9, 11, 13, 15, 0, 2, 4, 6, 8, 10, 12, 13],
@@ -166,5 +166,5 @@
       "log": "bool?"
     }
   },
-  "image": "zigbee2mqtt/zigbee2mqtt-edge-{arch}"
+  "image": "zigbee2mqtt/zigbee2mqtt-{arch}"
 }
