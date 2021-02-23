@@ -1,7 +1,7 @@
 {
-  "name": "Zigbee2mqtt Bathroom",
+  "name": "Zigbee2mqtt Entrance",
   "version": "1.17.1-4",
-  "slug": "zigbee2mqtt_bathroom",
+  "slug": "zigbee2mqtt_entrance",
   "description": "Zigbee2mqtt add-on",
   "uart": true,
   "url": "https://github.com/andreypolyak/hassio-zigbee2mqtt-multi/tree/master/zigbee2mqtt",
